@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "group_assignment08", "group_assignment08\group_assignment08.pyproj", "{11AE75B0-471C-4A18-9C18-4EE03341EB20}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "gentledolphin_Assignment08", "group_assignment08\gentledolphin_Assignment08.pyproj", "{11AE75B0-471C-4A18-9C18-4EE03341EB20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
