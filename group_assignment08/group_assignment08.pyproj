@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>11ae75b0-471c-4a18-9c18-4ee03341eb20</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mainPackage\group_assignment08.py</StartupFile>
+    <StartupFile>mainPackage\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,27 +21,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="mainPackage\group_assignment08.py" />
+    <Compile Include="mainPackage\main.py" />
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="packageOne\numberOne.py">
+    <Compile Include="catPackage\cat.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="packageOne\__init__.py">
+    <Compile Include="catPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="packageTwo\numberTwo.py">
+    <Compile Include="dogPackage\dog.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="packageTwo\__init__.py">
+    <Compile Include="dogPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="mainPackage\" />
-    <Folder Include="packageOne\" />
-    <Folder Include="packageTwo\" />
+    <Folder Include="catPackage\" />
+    <Folder Include="dogPackage\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
